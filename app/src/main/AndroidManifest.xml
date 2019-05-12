@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dtoczylo.xivap">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".SettingsActivity">
+
+        </activity>
+
+        <activity android:name=".ViewerActivity">
+
+        </activity>
+
+        <activity android:name=".TrackerActivity">
+
+        </activity>
+
+        <activity android:name=".CategoryBattleActivity">
+
+        </activity>
+
+        <activity android:name=".CategoryPvPActivity">
+
+        </activity>
+
+        <activity android:name=".CategoryCharacterActivity">
+
+        </activity>
+
+        <activity android:name=".CategoryItemsActivity">
+
+        </activity>
+
+        <activity android:name=".CategoryCraftingActivity">
+
+        </activity>
+
+        <activity android:name=".CategoryGatheringActivity">
+
+        </activity>
+
+        <activity android:name=".CategoryQuestsActivity">
+
+        </activity>
+
+        <activity android:name=".CategoryExplorationActivity">
+
+        </activity>
+
+        <activity android:name=".CategoryGCActivity">
+
+        </activity>
+
+        <activity android:name=".ComparisonActivity">
+
+        </activity>
+
+        <activity android:name=".FriendSearchActivity">
+
+        </activity>
+
+    </application>
+
+</manifest>

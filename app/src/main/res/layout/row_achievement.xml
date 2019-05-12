@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/card"
+    card_view:cardCornerRadius="6dp"
+    card_view:cardElevation="3dp"
+    card_view:cardUseCompatPadding="true">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="1005dp"
+        android:layout_height="115dp"
+        android:layout_margin="5dp">
+
+        <!-- TextView Employee Name -->
+
+        <!-- TextView Employee Email -->
+
+        <!-- TextView Employee Phone -->
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/achievementIcon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+
+            android:layout_marginStart="36dp"
+            android:layout_marginLeft="36dp"
+            android:layout_marginTop="20dp"
+            card_view:layout_constraintStart_toStartOf="parent"
+            card_view:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/achievementTitle"
+            android:layout_width="417dp"
+            android:layout_height="39dp"
+            android:layout_marginStart="120dp"
+
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="2dp"
+            android:fontFamily="@font/opensanscondensedboldnormal"
+            android:gravity="center"
+            android:textSize="28dp"
+            card_view:layout_constraintStart_toStartOf="parent"
+            card_view:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/achievementPoint"
+            android:layout_width="135dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="15dp"
+
+            android:layout_marginEnd="336dp"
+            android:layout_marginRight="336dp"
+            android:fontFamily="@font/opensanscondensedboldnormal"
+            android:gravity="center"
+            android:textSize="30dp"
+            card_view:layout_constraintEnd_toEndOf="parent"
+            card_view:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/achievement_status"
+            android:layout_width="417dp"
+            android:layout_height="27dp"
+            android:layout_marginTop="88dp"
+            android:layout_marginEnd="468dp"
+            android:layout_marginRight="468dp"
+            android:fontFamily="@font/opensanscondensedbold"
+            android:gravity="center"
+            android:textSize="20dp"
+            card_view:layout_constraintEnd_toEndOf="parent"
+            card_view:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/achievement_description"
+            android:layout_width="417dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="36dp"
+            android:layout_marginEnd="468dp"
+            android:layout_marginRight="468dp"
+            android:fontFamily="@font/opensanscondensedboldnormal"
+            android:gravity="center|top"
+            android:textSize="16dp"
+            card_view:layout_constraintEnd_toEndOf="parent"
+            card_view:layout_constraintTop_toTopOf="parent" />
+
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.v7.widget.CardView>

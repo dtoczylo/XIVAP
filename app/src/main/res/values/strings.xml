@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">XIVAP</string>
+    <string name="xivap">XIVAP</string>
+    <string name="CharacterProfile">Character Profile</string>
+    <string name="xiv_achievement_progression">XIV Achievement Progression</string>
+    <string name="achievement_tracker">Achievement Tracker</string>
+    <string name="achievement_comparison">Achievement Comparison</string>
+    <string name="settings">Settings</string>
+    <string name="charactersideprofile">characterSideProfile</string>
+    <string name="settingsTitle">SETTINGS</string>
+    <string name="character_name">CHARACTER NAME</string>
+    <string name="spinner_title">SERVER</string>
+</resources>
